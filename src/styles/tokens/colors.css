@@ -1,0 +1,54 @@
+:root {
+  /*
+   * Soft dark emerald + charcoal + amber — professional SaaS palette.
+   */
+
+  --page-bg:
+    radial-gradient(circle at 12% 8%, rgba(49, 217, 130, 0.075), transparent 30%),
+    radial-gradient(circle at 90% 18%, rgba(242, 184, 75, 0.045), transparent 28%),
+    linear-gradient(180deg, #13231b 0%, #172b21 46%, #13231b 100%);
+
+  --color-page: #13231b;
+  --color-bg: #13231b;
+  --color-bg-soft: #172b21;
+  --color-surface: #17261e;
+  --color-surface-soft: #1d3026;
+  --color-card: #182a21;
+  --color-card-elevated: #20362a;
+  --color-card-hover: #244032;
+
+  --color-card-gradient: linear-gradient(
+    180deg,
+    var(--color-card-elevated) 0%,
+    var(--color-card) 100%
+  );
+  --color-card-gradient-hover: linear-gradient(
+    180deg,
+    var(--color-card-hover) 0%,
+    var(--color-card-elevated) 100%
+  );
+  --card-texture-opacity: 0.07;
+
+  --color-text: #eef5f1;
+  --color-text-muted: #b7c6bd;
+  --color-text-subtle: #91a39a;
+  --color-text-soft: #91a39a;
+
+  --color-primary: #31d982;
+  --color-primary-hover: #4ae596;
+  --color-primary-dark: #28b86d;
+  --color-primary-soft: rgba(49, 217, 130, 0.14);
+  --color-primary-border: rgba(49, 217, 130, 0.36);
+  --color-on-primary: #0f1a14;
+
+  --color-accent: #f2b84b;
+  --color-accent-soft: rgba(242, 184, 75, 0.14);
+  --color-accent-border: rgba(242, 184, 75, 0.28);
+
+  --color-border: rgba(238, 245, 241, 0.11);
+  --color-border-strong: rgba(49, 217, 130, 0.28);
+
+  --color-focus: var(--color-primary);
+
+  --shadow-card: 0 20px 48px rgba(0, 0, 0, 0.26);
+}

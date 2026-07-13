@@ -1,0 +1,36 @@
+.section {
+  background-color: transparent;
+  text-align: center;
+  font-weight:bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-5);
+  list-style: none;
+}
+
+.gridItem {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  min-width: 0;
+}
+
+.gridItem:has(.card:hover) {
+  z-index: 2;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-5);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    gap: var(--space-6);
+  }
+}

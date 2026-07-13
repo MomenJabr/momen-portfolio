@@ -1,0 +1,18 @@
+.section {
+  background-color: transparent;
+}
+
+.header {
+  margin-bottom: var(--space-5);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 640px) {
+  .header {
+    margin-bottom: var(--space-4);
+  }
+}
